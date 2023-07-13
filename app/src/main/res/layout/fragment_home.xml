@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/product1ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c6" />
+
+            <TextView
+                android:id="@+id/product2PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 1499"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+            <ImageView
+                android:id="@+id/product3ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c1" />
+
+            <TextView
+                android:id="@+id/product4PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 1000"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+            <ImageView
+                android:id="@+id/product5ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c2" />
+
+            <TextView
+                android:id="@+id/product6PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 900"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+
+            <ImageView
+                android:id="@+id/product7ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c3" />
+
+            <TextView
+                android:id="@+id/product8PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 100"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+
+
+            <ImageView
+                android:id="@+id/product9ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c4" />
+
+            <TextView
+                android:id="@+id/product10PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 2500"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+            <ImageView
+                android:id="@+id/product11ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c7" />
+
+            <TextView
+                android:id="@+id/product11PriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: KES 1499"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cartButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

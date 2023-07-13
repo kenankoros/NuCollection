@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186644290637",
+    "project_id": "nu-collection-1a651",
+    "storage_bucket": "nu-collection-1a651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186644290637:android:03ffba47e9a3558febd004",
+        "android_client_info": {
+          "package_name": "com.example.nucollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186644290637-s1onu6bv7o5r8ibrbc27n761rs6sv0ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlqk2ig4x21NLTgU637AH8Zlb9u8LOdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186644290637-s1onu6bv7o5r8ibrbc27n761rs6sv0ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

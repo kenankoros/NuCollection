@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nu Collection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="clothsType">
+\nHood
+\nShirt
+\nT-shirt
+\nSocks
+\nOfficial Trousers
+\nSuit
+\nKhaki Trousers
+\nShoes</string>
+
+    <string name="description">
+
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

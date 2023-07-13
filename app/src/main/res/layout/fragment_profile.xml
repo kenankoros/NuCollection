@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pro_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:layout_alignParentTop="true"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profIcon"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pro_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:layout_marginBottom="-40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_alignBottom="@+id/profIcon"
+        android:id="@+id/txtName"
+
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:layout_marginBottom="-40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_alignBottom="@+id/txtName"
+        android:id="@+id/txtEmail"
+        android:textSize="20sp"/>
+
+
+
+
+</RelativeLayout>
